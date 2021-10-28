@@ -1,0 +1,188 @@
+PODS:
+  - AgoraRtcEngine_iOS (3.0.0.2)
+  - Alamofire (4.9.1)
+  - FacebookCore (0.9.0):
+    - FBSDKCoreKit (~> 5.0)
+  - FacebookLogin (0.9.0):
+    - FacebookCore (~> 0.9.0)
+    - FBSDKCoreKit (~> 5.0)
+    - FBSDKLoginKit (~> 5.0)
+  - FBSDKCoreKit (5.15.1):
+    - FBSDKCoreKit/Basics (= 5.15.1)
+    - FBSDKCoreKit/Core (= 5.15.1)
+  - FBSDKCoreKit/Basics (5.15.1)
+  - FBSDKCoreKit/Core (5.15.1):
+    - FBSDKCoreKit/Basics
+  - FBSDKLoginKit (5.15.1):
+    - FBSDKLoginKit/Login (= 5.15.1)
+  - FBSDKLoginKit/Login (5.15.1):
+    - FBSDKCoreKit (~> 5.0)
+  - Firebase/CoreOnly (6.25.0):
+    - FirebaseCore (= 6.7.1)
+  - Firebase/Database (6.25.0):
+    - Firebase/CoreOnly
+    - FirebaseDatabase (~> 6.2.1)
+  - Firebase/Messaging (6.25.0):
+    - Firebase/CoreOnly
+    - FirebaseMessaging (~> 4.4.1)
+  - Firebase/Storage (6.25.0):
+    - Firebase/CoreOnly
+    - FirebaseStorage (~> 3.6.1)
+  - FirebaseAnalyticsInterop (1.5.0)
+  - FirebaseAuthInterop (1.1.0)
+  - FirebaseCore (6.7.1):
+    - FirebaseCoreDiagnostics (~> 1.3)
+    - FirebaseCoreDiagnosticsInterop (~> 1.2)
+    - GoogleUtilities/Environment (~> 6.5)
+    - GoogleUtilities/Logger (~> 6.5)
+  - FirebaseCoreDiagnostics (1.3.0):
+    - FirebaseCoreDiagnosticsInterop (~> 1.2)
+    - GoogleDataTransportCCTSupport (~> 3.1)
+    - GoogleUtilities/Environment (~> 6.5)
+    - GoogleUtilities/Logger (~> 6.5)
+    - nanopb (~> 1.30905.0)
+  - FirebaseCoreDiagnosticsInterop (1.2.0)
+  - FirebaseDatabase (6.2.1):
+    - FirebaseAuthInterop (~> 1.0)
+    - FirebaseCore (~> 6.0)
+    - leveldb-library (~> 1.22)
+  - FirebaseInstallations (1.2.0):
+    - FirebaseCore (~> 6.6)
+    - GoogleUtilities/Environment (~> 6.6)
+    - GoogleUtilities/UserDefaults (~> 6.6)
+    - PromisesObjC (~> 1.2)
+  - FirebaseInstanceID (4.3.4):
+    - FirebaseCore (~> 6.6)
+    - FirebaseInstallations (~> 1.0)
+    - GoogleUtilities/Environment (~> 6.5)
+    - GoogleUtilities/UserDefaults (~> 6.5)
+  - FirebaseMessaging (4.4.1):
+    - FirebaseAnalyticsInterop (~> 1.5)
+    - FirebaseCore (~> 6.6)
+    - FirebaseInstanceID (~> 4.3)
+    - GoogleUtilities/AppDelegateSwizzler (~> 6.5)
+    - GoogleUtilities/Environment (~> 6.5)
+    - GoogleUtilities/Reachability (~> 6.5)
+    - GoogleUtilities/UserDefaults (~> 6.5)
+    - Protobuf (>= 3.9.2, ~> 3.9)
+  - FirebaseStorage (3.6.1):
+    - FirebaseAuthInterop (~> 1.1)
+    - FirebaseCore (~> 6.6)
+    - GTMSessionFetcher/Core (~> 1.1)
+  - GoogleDataTransport (6.1.1)
+  - GoogleDataTransportCCTSupport (3.1.0):
+    - GoogleDataTransport (~> 6.1)
+    - nanopb (~> 1.30905.0)
+  - GoogleUtilities/AppDelegateSwizzler (6.6.0):
+    - GoogleUtilities/Environment
+    - GoogleUtilities/Logger
+    - GoogleUtilities/Network
+  - GoogleUtilities/Environment (6.6.0):
+    - PromisesObjC (~> 1.2)
+  - GoogleUtilities/Logger (6.6.0):
+    - GoogleUtilities/Environment
+  - GoogleUtilities/Network (6.6.0):
+    - GoogleUtilities/Logger
+    - "GoogleUtilities/NSData+zlib"
+    - GoogleUtilities/Reachability
+  - "GoogleUtilities/NSData+zlib (6.6.0)"
+  - GoogleUtilities/Reachability (6.6.0):
+    - GoogleUtilities/Logger
+  - GoogleUtilities/UserDefaults (6.6.0):
+    - GoogleUtilities/Logger
+  - GTMSessionFetcher/Core (1.4.0)
+  - InstagramLogin (1.3.0)
+  - IQKeyboardManagerSwift (6.5.5)
+  - leveldb-library (1.22)
+  - nanopb (1.30905.0):
+    - nanopb/decode (= 1.30905.0)
+    - nanopb/encode (= 1.30905.0)
+  - nanopb/decode (1.30905.0)
+  - nanopb/encode (1.30905.0)
+  - PromisesObjC (1.2.8)
+  - Protobuf (3.12.0)
+  - SDWebImage (5.8.0):
+    - SDWebImage/Core (= 5.8.0)
+  - SDWebImage/Core (5.8.0)
+  - SwiftyJSON (4.3.0)
+
+DEPENDENCIES:
+  - AgoraRtcEngine_iOS (~> 3.0.0.2)
+  - Alamofire (~> 4.7)
+  - FacebookCore
+  - FacebookLogin
+  - FBSDKLoginKit
+  - Firebase/Database
+  - Firebase/Messaging
+  - Firebase/Storage
+  - InstagramLogin
+  - IQKeyboardManagerSwift
+  - SDWebImage (~> 5.0)
+  - SwiftyJSON (~> 4.0)
+
+SPEC REPOS:
+  trunk:
+    - AgoraRtcEngine_iOS
+    - Alamofire
+    - FacebookCore
+    - FacebookLogin
+    - FBSDKCoreKit
+    - FBSDKLoginKit
+    - Firebase
+    - FirebaseAnalyticsInterop
+    - FirebaseAuthInterop
+    - FirebaseCore
+    - FirebaseCoreDiagnostics
+    - FirebaseCoreDiagnosticsInterop
+    - FirebaseDatabase
+    - FirebaseInstallations
+    - FirebaseInstanceID
+    - FirebaseMessaging
+    - FirebaseStorage
+    - GoogleDataTransport
+    - GoogleDataTransportCCTSupport
+    - GoogleUtilities
+    - GTMSessionFetcher
+    - InstagramLogin
+    - IQKeyboardManagerSwift
+    - leveldb-library
+    - nanopb
+    - PromisesObjC
+    - Protobuf
+    - SDWebImage
+    - SwiftyJSON
+
+SPEC CHECKSUMS:
+  AgoraRtcEngine_iOS: f9256067baa4a6c8a1ad36fedd71ad08ab2cab27
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  FacebookCore: ba86524b66cfa86d0f8e65d08faa8504a9f732dd
+  FacebookLogin: 6cee9fd6e1fe976fe8f7eec199e27b28b14f5d63
+  FBSDKCoreKit: 1d5acf7c9d7a2f92bb1a242dc60cae5b7adb91df
+  FBSDKLoginKit: f1ea8026a58b52d30c9f2e6a58ca7d813619fb83
+  Firebase: 5719b4f965f76643241a1bb8244483ff6117db39
+  FirebaseAnalyticsInterop: 3f86269c38ae41f47afeb43ebf32a001f58fcdae
+  FirebaseAuthInterop: a0f37ae05833af156e72028f648d313f7e7592e9
+  FirebaseCore: 6023faeada5afa95a349fccafb40900e32e9ac42
+  FirebaseCoreDiagnostics: 4a773a47bd83bbd5a9b1ccf1ce7caa8b2d535e67
+  FirebaseCoreDiagnosticsInterop: 296e2c5f5314500a850ad0b83e9e7c10b011a850
+  FirebaseDatabase: 4e99c0c475d1ee0aa64ae2b53c93f80b7b60d7d9
+  FirebaseInstallations: 2119fb3e46b0a88bfdbf12562f855ee3252462fa
+  FirebaseInstanceID: cef67c4967c7cecb56ea65d8acbb4834825c587b
+  FirebaseMessaging: 29543feb343b09546ab3aa04d008ee8595b43c44
+  FirebaseStorage: f4f39ae834a7145963b913f54e2f24a9db1d8fac
+  GoogleDataTransport: ad884314b81cdb808fb1d23787b367ff8da4e28a
+  GoogleDataTransportCCTSupport: d70a561f7d236af529fee598835caad5e25f6d3d
+  GoogleUtilities: 39530bc0ad980530298e9c4af8549e991fd033b1
+  GTMSessionFetcher: 6f5c8abbab8a9bce4bb3f057e317728ec6182b10
+  InstagramLogin: 55a3ab7aa6ee3f75bf06fdec1bb8f1e01e2c0b00
+  IQKeyboardManagerSwift: 0fb93310284665245591f50f7a5e38de615960b7
+  leveldb-library: 55d93ee664b4007aac644a782d11da33fba316f7
+  nanopb: c43f40fadfe79e8b8db116583945847910cbabc9
+  PromisesObjC: c119f3cd559f50b7ae681fa59dc1acd19173b7e6
+  Protobuf: 2793fcd0622a00b546c60e7cbbcc493e043e9bb9
+  SDWebImage: 84000f962cbfa70c07f19d2234cbfcf5d779b5dc
+  SwiftyJSON: 6faa0040f8b59dead0ee07436cbf76b73c08fd08
+
+PODFILE CHECKSUM: 638a9c959da1b6409a03131d6535a2c32dabb828
+
+COCOAPODS: 1.9.1
